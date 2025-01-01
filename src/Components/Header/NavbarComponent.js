@@ -5,7 +5,7 @@ const NavbarComponent = () => {
     <nav className={styles.navbar}>
       <div className={styles.logo}>
         <Link href="/">
-          <a>TechStore</a>
+          <a>TechBuzz</a>
         </Link>
       </div>
       <ul className={styles.navLinks}>
