@@ -1,0 +1,66 @@
+.dealsPage {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 30px;
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #f9f9f9;
+  }
+  
+  .dealsPage h1 {
+    font-size: 3em;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  .dealsPage p {
+    font-size: 1.2em;
+    margin-bottom: 40px;
+    color: #555;
+  }
+  
+  .dealsGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+  }
+  
+  .dealCard {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+  }
+  
+  
+  .dealCard h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    color: #2d3b41;
+  }
+  
+  .dealCard p {
+    font-size: 1.1em;
+    color: #666;
+  }
+  
+
+  .specialOffer h2 {
+    font-size: 2em;
+    color: #b22222;
+    margin-bottom: 10px;
+  }
+  
+  .specialOffer p {
+    font-size: 1.1em;
+    color: #333;
+  }
+  
+  .footer {
+    text-align: center;
+    margin-top: 40px;
+    color: #999;
+    font-size: 0.9em;
+  }
+  
