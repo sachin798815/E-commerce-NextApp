@@ -28,6 +28,15 @@ const DealsPageComponent = () => {
           <p>Was: ₹4,999</p>
         </div>
       </section>
+
+      <section className={styles.specialOffer}>
+        <h2>Limited-Time Offer!</h2>
+        <p>Get **Flat 20% Off** on all accessories. Use code: **GADGET20** at checkout.</p>
+      </section>
+
+      <footer className={styles.footer}>
+        <p>&copy; {new Date().getFullYear()} GadgetHouse. All rights reserved.</p>
+      </footer>
     </div>
   );
 };
