@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from './Homepage.module.css';
+import styles from './HomePageComponent.module.css';
 
 const HomepageComponent = () => {
   return (
