@@ -3,11 +3,9 @@ import styles from './AboutPageComponent.module.css';
 const AboutPageComponent = () => {
   return (
     <div className={styles.aboutPage}>
-      <h1>About GadgetHouse</h1>
-      <p>
+      <h1 className={styles.heading}>About GadgetHouse</h1>
+      <p className={styles.parah}>
         Welcome to <strong>GadgetHouse</strong>! We are your one-stop shop for the latest tech gadgets, from smartphones and laptops to smart home devices and accessories.
-      </p>
-      <p>
         Our mission is to bring you the best gadgets at unbeatable prices, ensuring you stay ahead of the curve with the latest innovations in technology.
       </p>
       <section className={styles.missionSection}>

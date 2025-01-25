@@ -1,91 +1,80 @@
 .contactPage {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    padding: 30px;
-    max-width: 900px;
-    margin: 0 auto;
-    text-align: center;
-    background-color: #f4f7f6;
-    border-radius: 8px;
-  }
-  
-  .contactPage h1 {
-    font-size: 3em;
-    margin-bottom: 20px;
-    color: #333;
-  }
-  
-  .contactPage p {
-    font-size: 1.1em;
-    margin-bottom: 30px;
-    color: #555;
-  }
-  
-  .contactDetails {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    gap: 30px;
-    margin-bottom: 40px;
-  }
-  
-  .contactItem {
-    background-color: #ffffff;
-    padding: 25px;
-    border-radius: 10px;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-    width: 280px;
-    text-align: left;
-    transition: transform 0.3s ease;
-  }
-  
-  .contactItem:hover {
-    transform: translateY(-5px);
-  }
-  
-  .contactItem h2 {
-    font-size: 1.7em;
-    margin-bottom: 10px;
-    color: #2d3b41;
-  }
-  
-  .contactItem p {
-    font-size: 1.1em;
-    color: #555;
-  }
-  
-  .supportSection {
-    background-color: #ffffff;
-    padding: 30px;
-    border-radius: 10px;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
-    margin-bottom: 30px;
-  }
-  
-  .supportSection h2 {
-    font-size: 2.2em;
-    margin-bottom: 15px;
-    color: #2d3b41;
-  }
-  
-  .supportSection p {
-    font-size: 1.1em;
-    color: #555;
-  }
-  
-  .footer {
-    text-align: center;
-    margin-top: 40px;
-    color: #999;
-    font-size: 0.9em;
-  }
-  
-  .footer a {
-    color: #2d3b41;
-    text-decoration: none;
-    font-weight: bold;
-  }
-  
-  .footer a:hover {
-    text-decoration: underline;
-  }
-  
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9f9;
+  color: #333;
+  text-align: center;
+}
+
+.contactPage h1 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  color: #010100;
+}
+
+.contactPage p {
+  font-size: 1.5em;
+  margin-bottom: 30px;
+  line-height: 1.6;
+}
+
+.contactDetails {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin-bottom: 50px;
+}
+
+.contactItem {
+  background-color: #ffffff;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+  width: 250px;
+}
+
+.contactItem h2 {
+  font-size: 1.8em;
+  color: #ff5733;
+  margin-bottom: 15px;
+}
+
+.contactItem p {
+  font-size: 1.2em;
+  color: #333;
+}
+
+.supportSection {
+  background-color: #ffffff;
+  color: #1b2838;
+  padding: 50px 20px;
+  margin: 50px 0;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+.supportSection h2 {
+  font-size: 2.2em;
+  margin-bottom: 15px;
+  color: #070100;
+}
+
+.supportSection p {
+  font-size: 1.2em;
+  line-height: 1.6;
+}
+
+.footer {
+  text-align: center;
+  background-color: #1b2838;
+  color: #ffffff;
+  padding: 25px 0;
+}
+
+.footer p {
+  margin: 0;
+  font-size: 0.9em;
+  color: #cccccc;
+}

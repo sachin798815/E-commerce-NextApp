@@ -12,7 +12,7 @@ const NavbarComponent = () => {
       </div>
       <ul className={styles.navLinks}>
         <li>
-          <Link href="/categories">Categories</Link>
+          <Link href="/store-page">Store</Link>
         </li>
         <li>
           <Link href="/deals">Deals</Link>

@@ -14,7 +14,7 @@ const ContactPageComponent = () => {
 
         <div className={styles.contactItem}>
           <h2>Email</h2>
-          <p>support@gadgethouse.com</p>
+          <p>support@gadgethouse .com</p>
         </div>
 
         <div className={styles.contactItem}>
