@@ -1,66 +1,84 @@
 .storePage {
-  padding: 20px;
-  background-color: #f8f9fa;
+  padding: 30px;
+  background-color: #f4f6f8;
   color: #212529;
+  font-family: 'Arial', sans-serif;
 }
 
 h1 {
   text-align: center;
-  font-size: 2rem;
-  margin-bottom: 40px;
-  font-weight: bold;
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 50px;
+  color: #007bff;
 }
 
 .carouselContainer {
-  margin-bottom: 40px;
+  margin-bottom: 50px;
 }
 
 h2 {
-  font-size: 1.5rem;
+  font-size: 1.75rem;
   margin-bottom: 20px;
-  color: #333;
+  color: #343a40;
   font-weight: 600;
 }
 
 .carousel {
   display: flex;
   overflow-x: auto;
-  gap: 20px;
-  padding: 10px 0;
+  gap: 30px;
+  padding: 15px 0;
+  scroll-behavior: smooth;
 }
 
 .card {
-  min-width: 200px;
-  max-width: 200px;
-  background-color: #fff;
+  min-width: 220px;
+  max-width: 220px;
+  background-color: #ffffff;
   border: 1px solid #ddd;
-  border-radius: 8px;
-  padding: 15px;
+  border-radius: 10px;
+  padding: 20px;
   text-align: center;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
 }
 
 .card p {
-  font-size: 1rem;
+  font-size: 1.2rem;
   color: #212529;
   font-weight: 500;
   margin: 0;
 }
 
 .card:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  transform: translateY(-8px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  background-color: #f8f9fa;
+}
+
+.card:active {
+  transform: translateY(2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 @media (max-width: 768px) {
   .carousel {
-    gap: 10px;
-    padding: 5px 0;
+    gap: 20px;
+    padding: 10px 0;
   }
 
   .card {
-    min-width: 150px;
-    max-width: 150px;
+    min-width: 180px;
+    max-width: 180px;
+    padding: 15px;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  h2 {
+    font-size: 1.5rem;
   }
 }
