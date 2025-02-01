@@ -1,150 +1,47 @@
 .storePage {
-  padding: 40px;
-  background-color: #f8f9fa;
-  color: #343a40;
-  font-family: 'Roboto', sans-serif;
-  max-width: 1200px;
-  margin: 0 auto;
+  text-align: center;
+  padding: 20px;
 }
 
 h1 {
-  text-align: center;
-  font-size: 3rem;
-  font-weight: 800;
-  margin-bottom: 60px;
-  color: #007bff;
-  text-transform: uppercase;
+  font-size: 2rem;
+  color: #333;
 }
 
 .carouselContainer {
-  margin-bottom: 60px;
+  margin: 30px auto;
+  padding: 15px;
+  background: #ffffff;
+  border-radius: 10px;
 }
 
 h2 {
-  font-size: 1.8rem;
-  margin-bottom: 25px;
-  color: #495057;
-  font-weight: 700;
-  text-transform: capitalize;
-  letter-spacing: 1px;
+  font-size: 1.5rem;
+  color: #444;
+  margin-bottom: 10px;
 }
 
 .carousel {
   display: flex;
   overflow-x: auto;
-  gap: 40px;
-  padding: 20px 0;
   scroll-behavior: smooth;
 }
 
 .card {
-  min-width: 250px;
-  max-width: 250px;
-  background-color: #ffffff;
-  border: 1px solid #ccc;
-  border-radius: 12px;
-  padding: 25px;
+  flex: 0 0 auto;
+  width: 150px;
+  padding: 15px;
+  border-radius: 8px;
   text-align: center;
-  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.12);
-  transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
-  cursor: pointer;
-  overflow: hidden;
-  position: relative;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
 }
 
-.card p {
-  font-size: 1.25rem;
-  color: #212529;
-  font-weight: 600;
-  margin: 0;
-  line-height: 1.4;
+.productImage {
+  object-fit: contain;
+  margin-bottom: 10px;
 }
 
-.card::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: rgba(0, 123, 255, 0.1);
-  opacity: 0;
-  transition: opacity 0.3s ease;
-}
-
-.card:hover::before {
-  opacity: 1;
-}
-
-.card:hover {
-  transform: translateY(-8px);
-  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
-  background-color: #f1f3f5;
-}
-
-.card:active {
-  transform: translateY(4px);
-  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
-}
-
-@media (max-width: 1024px) {
-  .carousel {
-    gap: 30px;
-    padding: 15px 0;
-  }
-
-  .card {
-    min-width: 220px;
-    max-width: 220px;
-    padding: 20px;
-  }
-
-  h1 {
-    font-size: 2.5rem;
-  }
-
-  h2 {
-    font-size: 1.6rem;
-  }
-}
-
-@media (max-width: 768px) {
-  .carousel {
-    gap: 20px;
-    padding: 10px 0;
-  }
-
-  .card {
-    min-width: 180px;
-    max-width: 180px;
-    padding: 15px;
-  }
-
-  h1 {
-    font-size: 2rem;
-  }
-
-  h2 {
-    font-size: 1.4rem;
-  }
-}
-
-@media (max-width: 480px) {
-  .carousel {
-    gap: 15px;
-  }
-
-  .card {
-    min-width: 150px;
-    max-width: 150px;
-    padding: 10px;
-  }
-
-  h1 {
-    font-size: 1.8rem;
-  }
-
-  h2 {
-    font-size: 1.3rem;
-  }
+p {
+  font-size: 1rem;
+  color: #555;
 }
