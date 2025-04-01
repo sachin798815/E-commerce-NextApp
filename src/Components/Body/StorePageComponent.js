@@ -16,8 +16,17 @@ const StorePageComponent = () => {
   return (
     <div>
       <h1>Shop by Categories</h1>
+      {categories.map((category, index) => (
+        <CategoryCarousel 
+          key={index} 
+          title={category.title} 
+          items={category.items} 
+          img={category.img} 
+        />
+      ))}
     </div>
   );
 };
+
 
 export default StorePageComponent;
