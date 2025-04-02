@@ -13,4 +13,17 @@
   padding: 10px;
 }
 
+.card {
+  flex: 0 0 auto;
+  width: 150px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  text-align: center;
+  border-radius: 5px;
+}
 
+.productImage {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+}
