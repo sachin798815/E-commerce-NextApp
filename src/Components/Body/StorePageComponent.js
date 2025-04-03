@@ -1,3 +1,6 @@
+import styles from './StorePageComponent.module.css';
+
+
 const categories = [
   {
     title: 'Phones',
