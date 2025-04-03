@@ -1,0 +1,21 @@
+.carouselContainer {
+    margin: 20px 0;
+  }
+  
+  .carousel {
+    display: flex;
+    overflow-x: auto;
+    gap: 15px;
+    padding: 10px;
+  }
+  
+  .card {
+    flex: 0 0 auto;
+    width: 150px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    text-align: center;
+    border-radius: 5px;
+  }
+
+  
