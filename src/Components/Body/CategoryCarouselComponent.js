@@ -1,4 +1,6 @@
-const CategoryCarouselComponent= ({ title, items, img }) => {
+import styles from './CategoryCarousel.module.css';
+
+const CategoryCarousel = ({ title, items, img }) => {
   return (
     <div className={styles.carouselContainer}>
       <h2>{title}</h2>
@@ -14,4 +16,4 @@ const CategoryCarouselComponent= ({ title, items, img }) => {
   );
 };
 
-export default CategoryCarouselComponent;
+export default CategoryCarousel;
