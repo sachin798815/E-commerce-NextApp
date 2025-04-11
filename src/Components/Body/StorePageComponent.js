@@ -10,12 +10,14 @@ const categories = [
 const StorePageComponent = () => {
   return (
     <div className={styles.storePage}>
-      <h1 className={styles.heading}>Shop by Categories</h1>
-      {categories.map((category, index) => (
-        <CategoryCarousel key={index} title={category.title} items={category.items} img={category.img} />
-      ))}
+      <div className={styles.container}>
+        <h1 className={styles.heading}>Shop by Categories</h1>
+        {categories.map((category, index) => (
+          <CategoryCarousel key={index} category={category} />
+        ))}
+      </div>
     </div>
-  );
+  );  
 };
 
 export default StorePageComponent;
