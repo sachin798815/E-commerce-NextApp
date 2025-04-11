@@ -1,4 +1,4 @@
-import styles from './CategoryCarousel.module.css';
+import styles from "./CategoryCarousel.module.css";
 
 const CategoryCarousel = ({ category }) => {
   return (
@@ -7,7 +7,12 @@ const CategoryCarousel = ({ category }) => {
       <div className={styles.carousel}>
         {category.items.map((item, index) => (
           <div key={index} className={styles.card}>
-            <img src={category.img} alt={item} className={styles.productImage} />
+            <img
+              src={category.img}
+              alt={item || "Product Image"}
+              className={styles.productImage}
+              loading="lazy"
+            />
             <p className={styles.productName}>{item}</p>
           </div>
         ))}
