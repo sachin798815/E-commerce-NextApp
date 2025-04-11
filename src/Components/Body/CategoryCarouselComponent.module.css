@@ -15,16 +15,11 @@
 }
 
 .card {
-  flex: 0 0 auto;
-  width: 150px;
-  scroll-snap-align: start;
-  background: #f9f9f9;
-  border-radius: 10px;
-  border: 1px solid #eee;
-  padding: 10px;
-  text-align: center;
-  transition: transform 0.2s ease;
+  box-shadow: none;
+  border: 1px solid #ccc;
+  background: #fff;
 }
+
 
 .card:hover {
   transform: translateY(-4px);
