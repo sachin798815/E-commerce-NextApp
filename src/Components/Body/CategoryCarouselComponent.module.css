@@ -36,4 +36,9 @@
 .viewAll {
   font-size: 0.9rem;
   color: #007bff;
+  text-decoration: none;
+}
+
+.viewAll:hover {
+  text-decoration: underline;
 }
